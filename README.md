@@ -31,10 +31,10 @@ evidence. Toolchain quirks worth knowing up front are in **[CLAUDE.md](CLAUDE.md
 
 | Lang | Toolchain | Version | LLVM | Triple / CPU |
 |------|-----------|---------|------|--------------|
-| C / C++ | [llvm-mos-sdk](https://github.com/llvm-mos/llvm-mos-sdk) `v23.0.1` | clang **23.0.0git** | **23** | `--target=mos -mcpu=mos6502` |
-| Rust | [mrk-its/rust-mos](https://github.com/mrk-its/rust-mos) (via [zig-mos-bootstrap](https://github.com/kassane/zig-mos-bootstrap)) | rustc **1.98.0-dev** | **23** | `--target mos-unknown-none -Ctarget-cpu=mos6502` |
-| Zig | [kassane/zig-mos-bootstrap](https://github.com/kassane/zig-mos-bootstrap) `0.17.0-dev` | **0.17.0-mos-dev** | **22** | `-target mos-freestanding -mcpu mos6502` |
-| D | [kassane/zig-mos-bootstrap](https://github.com/kassane/zig-mos-bootstrap) (LDC) | LDC **1.42.0** (DMD 2.112.1) | **22** | `--mtriple=mos -mcpu=mos6502 -mattr=…` |
+| C / C++ | LLVM-MOS SDK | clang **23.0.0git** | **23** | `--target=mos -mcpu=mos6502` |
+| Rust | Rust-MOS | rustc **1.98.0-dev** | **23** | `--target mos-unknown-none -Ctarget-cpu=mos6502` |
+| Zig | Zig-MOS | **0.17.0-mos-dev** | **22** | `-target mos-freestanding -mcpu mos6502` |
+| D | LDC2-MOS | LDC **1.42.0-dev** (DMD 2.112.1) | **22** | `--mtriple=mos -mcpu=mos6502 -mattr=…` |
 
 All four emit the **byte-identical** LLVM data layout, which is the whole basis
 for interop:
